@@ -278,8 +278,11 @@ alias ngrok='~/ngrok.exe'
 alias powerpoint='/c/Program\ Files/Microsoft\ Office\ 15/root/office15/powerpnt.exe'
 alias word='/c/Program\ Files/Microsoft\ Office\ 15/root/office15/WINWORD.EXE'
 ## use python3
-alias python=python3
-alias pip=pip3
+# alias python=python3
+# alias pip=pip3
+## use Windows python
+alias python='/c/Users/Brian/AppData/Local/Programs/Python/Python35/python.exe'
+alias pip='/c/Users/Brian/AppData/Local/Programs/Python/Python35/Scripts/pip.exe'
 ## misc. aliases
 alias ec="~/cygemacs.sh"
 alias la='ls -a --color=auto'
