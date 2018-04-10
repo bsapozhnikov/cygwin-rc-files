@@ -242,11 +242,6 @@ mcd (){
     cd $1
 }
 
-pull_out (){
-    mv $1/* .
-    rmdir $1
-}
-
 tex_clean (){
     echo "removing clutter files..."
     rm $1/*.log
