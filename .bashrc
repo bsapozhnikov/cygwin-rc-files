@@ -219,7 +219,7 @@ function git_branch {
 }
 gitcolor='[1;31m'
 PROMPT_COMMAND='git_branch'
-export PS1="\[\e]0;\w\a\]\n\[\e[97m\]\u@\h\[\e${gitcolor}\]\${gitbranch} \[\e[33m\]\w\[\e[0m\]\n\$ "
+export PS1="\[\e]0;\w\a\]\n\[\e[97m\]\u@\h\[\e[1;94m[L$SHLVL]\]\[\e${gitcolor}\]\${gitbranch} \[\e[33m\]\w\[\e[0m\]\n\$ "
 
 ## http://fitnr.com/showing-a-bash-spinner.html
 # spinner()
