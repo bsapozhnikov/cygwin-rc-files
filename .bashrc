@@ -257,18 +257,19 @@ tex_clean (){
     echo "done"
 }
 
+base="d:"
 ## cd aliases
-#alias apcs='cd /c/Users/Brian/Documents/school/11thGrade/Term2/APCS '
-alias desktop='cd /c/Users/Brian/Desktop'
-alias github='cd /c/Users/Brian/Documents/GitHub'
-alias harvard='cd /c/Users/Brian/Documents/harvard/junior'
-alias hive='cd /c/Users/Brian/Documents/harvard/summer2016/Hive'
-alias softdev='cd /c/Users/Brian/Documents/school/12thGrade/CS'
+#alias apcs='cd ${base}/Documents/school/11thGrade/Term2/APCS '
+alias desktop='cd ${base}/Desktop'
+alias github='cd ${base}/Documents/GitHub'
+alias harvard='cd ${base}/Documents/harvard/junior'
+alias hive='cd ${base}/Documents/harvard/summer2016/Hive'
+alias softdev='cd ${base}/Documents/school/12thGrade/CS'
 ## .exe aliases
 alias acrobat='/c/Program\ Files\ \(x86\)/Adobe/Acrobat\ Reader\ DC/Reader/AcroRd32.exe'
 alias atom='/c/Users/Brian/AppData/Local/atom/bin/atom.cmd'
 alias chrome='/c/Program\ Files\ \(x86\)/Google/Chrome/Application/chrome.exe'
-alias emacs='/c/emacs-24.5/bin/runemacs.exe'
+alias emacs='c:/emacs-24.5/bin/runemacs.exe'
 alias excel='/c/Program\ Files/Microsoft\ Office\ 15/root/office15/excel.exe'
 alias meteor='/c/Users/Brian/AppData/Local/.meteor/meteor.bat'
 alias mintty='mintty.exe -i /Cygwin-Terminal.ico'
@@ -288,4 +289,4 @@ alias ec="~/cygemacs.sh"
 alias la='ls -a --color=auto'
 alias ls='ls --color=auto'
 alias mysql='mysql -u root -p -h 127.0.0.1'
-alias srcsoftdev='source /c/Users/Brian/Documents/school/12thGrade/CS/bin/activate'
+alias srcsoftdev='source ${base}/Documents/school/12thGrade/CS/bin/activate'
