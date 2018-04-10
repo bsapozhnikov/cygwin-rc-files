@@ -197,6 +197,7 @@
 # 
 # alias cd=cd_func
 shopt -s nocaseglob
+shopt -s completion_strip_exe
 
 #export PATH=/usr/bin/virtualenv:$PATH
 #export PATH=/cygdrive/c/cygdrive64/bin/virtualenv:$PATH
