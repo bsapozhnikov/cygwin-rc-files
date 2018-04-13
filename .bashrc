@@ -243,6 +243,12 @@ mcd (){
     cd $1
 }
 
+open (){
+    for i in "$@"; do
+	cygstart "$i"
+    done
+}
+
 tex_clean (){
     echo "removing clutter files..."
     rm $1/*.log
@@ -278,8 +284,8 @@ alias word='/c/Program\ Files/Microsoft\ Office\ 15/root/office15/WINWORD.EXE'
 # alias python=python3
 # alias pip=pip3
 ## use Windows python
-alias python='/c/Users/Brian/AppData/Local/Programs/Python/Python35/python.exe'
-alias pip='/c/Users/Brian/AppData/Local/Programs/Python/Python35/Scripts/pip.exe'
+alias python='c:/Users/Brian/AppData/Local/Programs/Python/Python35/python.exe'
+alias pip='c:/Users/Brian/AppData/Local/Programs/Python/Python35/Scripts/pip.exe'
 ## misc. aliases
 alias ec="~/cygemacs.sh"
 alias la='ls -a --color=auto'
